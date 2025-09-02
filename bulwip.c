@@ -49,7 +49,7 @@ static GifWriter gif;
 #ifdef COMPILED_ROMS
 #include "994arom.h"
 #include "994agrom.h"
-#include "mbtest.h"
+//#include "mbtest.h"
 //#include "megademo.h"
 
 static const struct {
@@ -59,7 +59,7 @@ static const struct {
 } comp_roms[] = {
 	{"994arom.bin", rom994a, sizeof(rom994a)},
 	{"994agrom.bin", grom994a, sizeof(grom994a)},
-	{"mbtest.bin", mbtest, sizeof(mbtest)},
+//	{"mbtest.bin", mbtest, sizeof(mbtest)},
 //	{"megademo8.bin", megademo, sizeof(megademo)},
 };
 
